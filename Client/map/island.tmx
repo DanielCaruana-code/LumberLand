@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <editorsettings>
+  <export target="island.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="island" tilewidth="16" tileheight="16" tilecount="1521" columns="39">
+  <image source="cute_island_assets.png" width="630" height="630"/>
+  <tile id="8">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="12" width="16" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="14" y="6" width="2" height="10"/>
+   </objectgroup>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="3" width="16" height="13"/>
+   </objectgroup>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="6" width="2" height="10"/>
+   </objectgroup>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="11" y="0" width="5" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="5" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="14" y="7" width="2" height="9"/>
+   </objectgroup>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="2" width="16" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="7" width="2" height="9"/>
+   </objectgroup>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="14" y="0" width="2" height="3"/>
+   </objectgroup>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="12"/>
+   </objectgroup>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="2" height="3"/>
+   </objectgroup>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="11" y="0" width="5" height="6"/>
+   </objectgroup>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0" y="0">
+     <properties>
+      <property name="collidable" type="bool" value="true"/>
+     </properties>
+     <polygon points="0,0 0,5.9375 5.96875,11.9375 10,11.9688 16,6.03125 16,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="5" height="6"/>
+   </objectgroup>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="11"/>
+   </objectgroup>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="1" height="2"/>
+   </objectgroup>
+  </tile>
+  <tile id="666">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="667">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="668">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="669">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="670">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+    <object id="2" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="673">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="674">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="675">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="676">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="677">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="705">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="706">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="707">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="708">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="709">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="712">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="713">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="714">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="715">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="716">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="744">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="745">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="746">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="747">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="748">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="751">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="752">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="753">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="754">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="755">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="783">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="784">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="785">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="786">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="787">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="790">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="791">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="792">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="793">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="794">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="907">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="908">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="909">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="910">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="911">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="946">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="947">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="948">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="949">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="950">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="985">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="986">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="987">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="988">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="989">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1024">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1025">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1026">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1027">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="tag" value="door"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1028">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="14" height="15"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="40" height="30">
+  <data encoding="csv">
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,177,178,179,221,221,
+221,221,221,221,221,221,177,178,178,178,178,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,216,217,218,221,221,
+221,221,221,221,221,221,216,884,923,923,923,221,221,221,221,221,221,221,221,221,221,221,221,221,221,923,923,923,923,923,923,923,884,221,221,216,217,218,221,221,
+221,221,221,221,221,221,216,885,18,18,18,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,17,17,18,18,18,883,221,221,216,217,218,221,221,
+221,221,221,221,221,221,216,885,18,18,18,16,16,16,18,18,16,16,16,16,16,16,16,16,16,16,16,17,17,17,18,18,883,221,221,216,217,218,221,221,
+221,221,221,221,221,177,217,885,18,18,18,16,16,16,16,16,16,16,16,18,18,18,18,18,18,16,16,17,17,17,18,18,883,179,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,18,18,16,16,16,16,16,16,18,18,16,16,16,16,16,16,16,16,16,17,17,17,18,18,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,18,16,17,18,16,18,16,16,16,18,16,16,16,17,16,16,16,16,16,16,16,17,18,18,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,16,16,16,16,16,16,17,17,16,17,16,17,16,17,16,16,16,16,16,18,16,17,18,18,883,218,221,255,256,257,221,221,
+221,221,221,221,221,216,217,885,16,17,16,16,16,17,18,16,16,16,16,16,16,16,16,16,17,18,16,16,16,17,18,18,883,218,221,221,221,221,221,221,
+221,333,334,335,221,216,217,885,16,17,17,17,17,688,689,690,18,17,17,18,16,16,16,17,17,18,16,16,16,17,18,18,883,218,221,221,221,221,221,221,
+221,372,373,374,221,216,217,885,17,16,16,17,18,727,728,729,16,17,17,18,16,16,17,18,16,16,16,16,16,16,18,18,883,218,221,221,221,221,221,221,
+221,372,373,374,221,216,217,885,16,16,17,16,17,727,728,729,17,16,16,16,16,16,16,16,17,18,16,17,17,18,17,17,883,218,221,177,178,179,221,221,
+221,372,373,374,221,216,217,885,17,16,16,16,17,727,728,729,17,16,17,17,18,17,18,16,16,16,16,16,17,17,16,17,883,218,221,216,217,218,221,221,
+221,372,373,374,221,216,217,885,16,17,16,17,16,727,728,729,17,17,17,17,17,16,16,16,18,16,16,16,17,17,16,17,883,218,221,216,217,218,221,221,
+221,372,373,374,221,216,217,885,16,17,16,16,16,727,728,729,17,17,17,17,16,17,18,16,18,16,16,16,16,17,16,17,883,218,221,216,217,218,221,221,
+221,372,373,374,221,216,217,885,16,17,16,17,16,766,767,768,17,17,17,17,16,17,18,16,18,18,18,16,17,17,16,17,883,218,221,216,217,218,221,221,
+221,372,373,374,221,216,217,885,16,17,16,16,16,16,16,17,17,17,17,17,18,17,18,16,18,18,16,16,17,16,17,17,883,218,221,216,217,218,221,221,
+221,411,412,413,221,216,217,885,16,17,16,17,16,16,16,16,17,17,17,17,18,16,16,18,18,18,16,16,16,16,17,17,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,17,16,16,16,16,16,16,16,16,16,16,17,17,16,16,16,16,16,17,17,17,17,17,17,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,16,16,16,16,16,16,17,16,16,17,17,17,17,17,17,16,16,16,16,17,17,17,17,17,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,885,18,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,17,17,17,17,17,17,17,883,218,221,216,217,218,221,221,
+221,221,221,221,221,216,217,217,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,845,217,218,221,216,217,218,221,221,
+221,221,221,221,221,255,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,257,221,216,217,218,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,56,56,221,221,221,221,221,221,221,221,221,221,221,221,221,221,216,217,218,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,56,221,221,177,178,178,178,178,178,178,178,178,179,221,221,216,217,218,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,56,56,221,216,217,217,217,217,217,217,217,217,218,221,221,255,256,257,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,255,256,256,256,256,256,256,256,256,257,221,221,221,221,221,221,221,
+221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221
+</data>
+ </layer>
+ <layer id="4" name="Tile Layer 2" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,313,314,314,314,314,314,314,314,314,314,314,314,314,314,314,315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,918,0,0,0,0,0,0,313,314,314,314,314,314,314,314,314,314,314,314,314,314,314,315,0,0,0,0,916,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,313,314,314,314,314,314,314,314,314,314,314,314,314,314,314,315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,352,353,353,353,353,353,353,353,353,353,353,353,353,353,353,354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,918,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,916,0,0,0,0,0,0,688,689,690,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,281,282,282,282,282,282,282,282,282,283,0,0,0,918,0,0,0,0,0,0,0,0,916,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,917,0,0,320,321,321,321,321,321,321,321,321,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,359,360,360,360,360,360,360,360,360,361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,689,728,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,916,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,728,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,728,689,0,0,0,689,689,689,689,689,0,0,0,689,690,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,728,728,728,728,728,728,728,728,728,728,728,728,728,728,729,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,728,767,767,767,767,767,767,767,767,767,767,767,767,767,768,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,0,0,0,0,0,0,0,0,917,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,917,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,0,0,0,688,689,689,689,689,689,689,689,689,690,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,917,0,0,0,727,728,728,728,728,728,728,728,728,729,0,0,918,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,727,728,729,0,0,0,0,0,0,0,766,767,767,767,767,767,767,767,767,768,0,0,0,0,0,0,0,0,0,0,0,
+0,0,916,0,0,0,0,0,0,766,767,768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,918,0,0,0,0,0,916,0,0,0,0,916,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,917,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,917,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,918,0
+</data>
+ </layer>
+ <layer id="5" name="Tile Layer 3" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,1276,0,0,0,0,642,642,642,642,642,642,642,642,642,642,642,642,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1155,0,0,0,0,0,0,0,0,0,0,642,642,642,642,642,642,642,642,642,642,642,642,0,0,0,0,0,0,0,0,0,764,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,642,642,642,642,642,642,642,642,642,642,642,642,0,0,1150,0,0,0,0,0,0,0,0,0,562,0,0,0,
+0,0,764,0,764,0,0,802,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1189,0,0,0,0,0,0,1151,0,0,803,0,764,0,
+0,0,0,0,0,0,0,0,1155,0,0,0,1155,0,0,0,1155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1190,0,0,562,0,0,0,
+0,0,0,0,764,0,0,0,0,0,0,0,0,0,1198,0,0,0,0,0,1155,0,0,0,0,1276,0,0,0,0,0,0,0,0,0,0,0,0,764,0,
+0,1276,764,0,0,0,0,0,0,0,0,0,0,1198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,803,0,0,0,
+0,0,0,0,0,0,1150,0,0,0,761,0,0,0,0,0,0,0,641,641,641,641,641,641,0,0,0,0,0,0,0,0,0,603,0,0,0,803,0,0,
+0,0,764,0,0,802,1189,0,0,0,0,0,0,0,0,0,0,0,641,641,641,641,641,641,0,0,0,1155,0,0,0,0,803,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,761,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1198,1155,0,1198,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,803,0,0,0,0,0,0,0,
+0,0,0,0,0,0,802,0,0,0,918,0,0,0,0,0,674,675,676,677,678,0,0,0,908,909,910,911,912,0,919,0,803,0,1198,0,0,0,919,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,641,0,713,714,715,716,717,0,0,0,947,948,949,950,951,0,0,0,0,1150,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,562,0,0,0,0,0,752,753,754,755,756,0,0,0,986,987,988,989,990,0,0,0,803,1189,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,602,0,791,792,793,794,795,603,641,0,1025,1026,1027,1028,1029,0,0,0,603,0,1155,0,562,0,0,0,
+0,0,0,0,0,0,802,0,0,0,761,1151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1198,0,0,0,0,0,0,603,800,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1190,0,0,601,0,0,1155,0,0,0,0,0,0,0,0,1155,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,761,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,803,0,0,919,0,0,0,
+0,0,0,0,0,0,562,0,0,0,918,0,0,0,0,0,0,0,0,1155,0,0,0,562,562,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,603,641,803,562,803,603,918,0,0,0,0,0,603,0,0,562,0,0,0,
+0,0,0,0,0,0,562,0,0,0,761,0,0,1198,0,0,0,0,0,1155,0,803,803,0,803,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1198,0,0,0,0,0,0,0,0,0,0,1155,0,0,0,0,0,0,0,0,800,0,0,0,
+0,0,0,0,0,0,1150,0,0,0,0,0,0,0,0,0,0,0,1155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,603,0,0,0,
+0,0,1276,0,0,0,1189,761,0,0,0,761,0,0,0,0,0,0,0,562,562,562,802,0,0,0,0,802,0,0,0,0,603,1150,0,0,800,0,919,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,802,0,0,0,0,0,1189,0,0,0,0,0,0,
+0,919,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1151,0,0,0,0,0,0,0,0,1155,0,919,0,0,0,
+0,0,0,0,0,0,0,1276,0,0,0,1236,0,0,0,0,1155,0,764,0,764,0,0,0,0,1190,0,0,0,0,0,562,0,0,0,0,0,0,0,1151,
+0,0,0,0,0,0,0,0,764,0,0,0,0,0,0,0,0,0,0,0,0,1236,0,0,0,562,562,0,562,562,0,0,0,0,0,0,0,0,0,1190,
+0,919,919,0,0,0,764,0,0,1236,0,0,764,0,0,0,1155,0,764,0,0,0,0,0,919,0,0,0,0,0,919,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,764,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Tile Layer 4" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,0,0,
+0,0,0,0,0,50,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,48,49,0,0,
+0,0,0,0,0,89,90,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,88,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8,9,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,47,48,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,87,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,43,44,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,
+0,0,0,0,43,44,45,0,0,0,82,83,84,43,44,45,0,0,0,0,0,43,44,45,0,0,0,0,43,44,45,0,0,0,0,0,89,90,91,0,
+0,0,0,0,82,83,84,0,0,0,0,0,0,82,83,84,0,0,0,0,0,82,83,84,0,0,0,0,82,83,84,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,48,49,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,88,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,90,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,0,0,0,0,0,0,50,51,52,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,48,49,0,0,0,0,0,0,89,90,91,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,88,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

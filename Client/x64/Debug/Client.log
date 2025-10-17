@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\danie\Documents\GitHub\LumberLand\LumberLand\Client\main.cpp(212,95): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\Documents\GitHub\LumberLand\LumberLand\Client\main.cpp(290,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\danie\Documents\GitHub\LumberLand\LumberLand\Client\main.cpp(300,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+fmtd.lib(format.cc.obj) : warning LNK4099: PDB '' was not found with 'fmtd.lib(format.cc.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Client.vcxproj -> C:\Users\danie\Documents\GitHub\LumberLand\LumberLand\x64\Debug\Client.exe

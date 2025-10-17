@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <editorsettings>
+  <export target="LumberLand.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="lumberimage" tilewidth="16" tileheight="16" tilecount="1349" columns="71">
+  <image source="lumberimage.png" width="1136" height="304"/>
+  <tile id="12">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Soldier"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="2" width="14" height="12">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="644">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="2" width="12" height="12">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="781">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="1" width="16" height="15">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="782">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="0" width="14" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="787">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+      <property name="Tag" value="Cave"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="852">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="853">
+   <properties>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="854">
+   <properties>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="923">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="924">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="925">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="994">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="995">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="996">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Castle"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1002">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Well"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="3" y="1" width="9" height="13">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1065">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="5" y="8" width="6" height="7"/>
+   </objectgroup>
+  </tile>
+  <tile id="1066">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="1" width="12" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="1067">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="12" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1068">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="1" width="14" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="1069">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+  </tile>
+  <tile id="1070">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+  </tile>
+  <tile id="1071">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="13" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1072">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Damage"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="3" y="4" width="10" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="1073">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Damage"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="3" y="4" width="10" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="1074">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Water"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+      <property name="Tag" value="Water"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1136">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1137">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1138">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1139">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1140">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="0" width="13" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1141">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="0" width="13" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1142">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Tree"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="0" width="13" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="1143">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1144">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1148">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="4" width="13" height="11"/>
+   </objectgroup>
+  </tile>
+  <tile id="1149">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="4" width="13" height="11"/>
+   </objectgroup>
+  </tile>
+  <tile id="1150">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2" y="3" width="12" height="13"/>
+   </objectgroup>
+  </tile>
+  <tile id="1151">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="3" y="3" width="10" height="13"/>
+   </objectgroup>
+  </tile>
+  <tile id="1216">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="Collision" type="bool" value="true"/>
+      <property name="Tag" value="Water"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1219">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="4" y="6" width="8" height="9"/>
+   </objectgroup>
+  </tile>
+  <tile id="1220">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="4" y="9" width="8" height="5"/>
+   </objectgroup>
+  </tile>
+  <tile id="1221">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="4" y="8" width="8" height="6"/>
+   </objectgroup>
+  </tile>
+  <tile id="1222">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+    <property name="Tag" value="Cactus"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="4" y="7" width="8" height="7"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="csv">
+1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,788,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,
+1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,
+1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,
+1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1146,1146,1076,1076,1076,1076,
+1147,1147,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1076,1146,1146,1146,1076,1076,1076,1076,1146,1146,1146,1146,1076,1076,1076,1076,1076,
+1147,1146,1146,1146,1147,1147,1147,1076,1076,1076,1076,1076,1076,1076,1076,1076,1146,1146,1146,1146,1146,1146,1147,1076,1076,1076,1076,1076,1076,1147,
+1146,1146,1146,1146,1147,1147,1147,1147,1147,1147,1147,1147,1147,1147,1076,1076,1076,1076,1076,1076,1076,1076,1147,1076,1076,1076,1076,1076,1146,1146,
+1147,1146,1146,1147,1146,1146,1146,1146,1146,1146,1146,1146,1146,1146,1147,1147,1076,1076,1076,1076,1076,1076,1147,1076,1076,1076,1147,1147,1146,1147,
+1146,1147,1146,1147,1146,1147,1147,1147,1147,1146,1146,1146,1147,1146,1147,1147,1147,1147,1076,1076,1076,1076,1147,1076,1076,1076,1147,1146,1147,1147,
+1147,1147,1146,1146,1146,1146,1146,1146,1147,1147,1147,1147,1147,1146,1147,1147,1147,1147,1147,1076,1076,1076,1147,1076,1076,1076,1147,1146,1146,1147,
+1147,1147,1147,1147,1146,1146,1146,1146,1146,1146,1146,1146,1146,1146,1147,1147,1147,1147,1146,1147,1076,1076,1147,1076,1076,1076,1147,1147,1146,1147,
+1075,1075,1075,1075,1075,1075,1075,1147,1147,1146,1146,1146,1147,1146,1146,1147,1146,1146,1146,1147,1076,1076,1147,1076,1076,1076,1147,1147,1146,1147,
+1218,1218,1218,1218,1218,1075,1075,1075,1075,1147,1147,1147,1147,1147,1146,1146,1146,1147,1147,1147,1076,1076,1076,1076,1076,1147,1147,1146,1146,1146,
+1218,1218,1218,1218,1218,1218,1218,1075,1075,1075,1075,1075,1147,1147,1147,1146,1147,1146,1147,1147,1147,1147,1076,1076,1076,1147,1147,1146,1146,1146,
+1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1075,1147,1146,1146,1147,1146,1146,1147,1147,1147,1147,1147,1147,1147,1146,1146,1147,1147,
+1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1146,1147,1147,1146,1146,1146,1146,1147,1147,1147,1147,1147,1146,1146,1147,1147,
+1219,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1147,1147,1147,1146,1146,1146,1146,1146,1146,1146,1147,1146,1146,1147,1147,
+1219,1219,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1147,1147,1147,1146,1146,1146,1147,1146,1146,1147,1146,1146,1146,1147,
+1219,1219,1219,1219,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1147,1147,1147,1147,1147,1147,1146,1147,1147,1147,1147,1147,1146,
+1219,1219,1219,1219,1219,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1218,1075,1075,1075,1075,1075,1146,1146,1146,1147,1147,1146,1147,1146,1146
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,853,1,2,646,647,853,788,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,783,72,73,0,0,783,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,783,0,0,0,0,783,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,995,782,996,996,782,997,0,0,0,0,0,0,0,0,1003,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1143,0,1221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1220,0,0,0,0,0,0,1149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1149,0,0,0,1143,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1143,0,0,0,0,1149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1142,0,0,1143,0,0,0,1143,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,642,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1142,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1149,0,0,0,1143,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1141,0,0,0,0,0,0,0,0,0,0,1143,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1141,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1220,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1149,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1143,0,0,1141,0,0,0,0,1143,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
